@@ -42,15 +42,7 @@ export const SideBard = () => {
                 <Link className="nav-link" to="/movies">
                     <i className="fas fa-fw fa-film"></i>
                     <span>MOVIES</span></Link>
-            </li> 
-
-
-            <li className={`nav-item ${pathname=== '/actors' && 'active'}`}>
-                <Link className="nav-link" to="/actors">
-                    <i className="fas fa-fw fa-users"></i>
-                    <span>ACTORES</span></Link>
             </li>
-
 
             <hr className="sidebar-divider d-none d-md-block" />
         </ul>
